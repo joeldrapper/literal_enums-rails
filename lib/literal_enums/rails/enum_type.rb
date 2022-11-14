@@ -15,7 +15,8 @@ module LiteralEnums
       end
 
       def serialize(value)
-        value.value
+        return value.value if value.is_a?(@enum)
+        value
       end
     end
   end
