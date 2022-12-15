@@ -7,7 +7,7 @@ Please see `literal_enums` for further documentaiton.
 
 ### ActiveJob
 
-Literal Enums are automatically serialised and deserialised for ActiveJob. You don't need to do anythign special to enable this. Just treat enums are normal arguments.
+Literal Enums are automatically serialised and deserialised for ActiveJob. You don't need to do anything special to enable this. Just treat enums as normal arguments.
 
 ### ActiveModel
 
