@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_dependency "rails", "~> 7.0"
-  spec.add_dependency "literal_enums", "> 1.0", "< 3"
+  spec.add_dependency "literal_enums", "~> 2.0"
 
   spec.add_development_dependency "mocha", "~> 1.13.0"
 end
